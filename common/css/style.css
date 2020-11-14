@@ -861,14 +861,93 @@ a {
     background-image: url(../images/bg_cnt20.png);
 }
 
-.main .line {
+.main .cnt20 .line {
     position: absolute;
-    bottom: 50%;
+    bottom: 520px;
     left: 0;
     z-index: 50;
     width: 99999999px;
-    height: 57px;
-    background: url(../images/text-line.png) repeat-x 0 0/auto 57px;
+    height: 114px;
+    background: url(../images/text-line.png) repeat-x 0 0/auto 114px;
+}
+
+.main .cnt20 .copy {
+    font-family: 'Roboto';
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main .cnt20 .mail {
+    font-family: 'Roboto';
+    position: absolute;
+    bottom: 250px;
+    text-decoration: underline;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 65px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main .cnt20 .logo {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.main .cnt20 .logo img {
+    width: 120px;
+}
+
+.main .cnt20 .share {
+    overflow: hidden;
+    position: absolute;
+    bottom: 45px;
+    right: 40px;
+    z-index: 10;
+}
+
+.main .cnt20 .share>a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.main .cnt20 .share .instagram {
+    background: url(../images/ico_insta.svg) no-repeat;
+}
+
+.main .cnt20 .share .youtube {
+    background: url(../images/ico_youtube.svg) no-repeat;
+}
+
+.main .cnt20 .share .facebook {
+    background: url(../images/ico_facebook.svg) no-repeat;
+}
+
+.main .cnt20 .btn_top {
+    position: absolute;
+    bottom: 320px;
+    right: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+}
+
+.main .cnt20 .btn_top p {
+    font-family: 'Roboto';
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .loading {

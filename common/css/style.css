@@ -573,6 +573,7 @@ a {
 .main .cnt04 .info {
     position: relative;
     padding: 80px 20px 120px 270px;
+    margin: 0 auto;
     max-width: 1640px;
     width: 100%;
     font-family: 'Roboto';
@@ -866,7 +867,7 @@ a {
     bottom: 520px;
     left: 0;
     z-index: 50;
-    width: 99999999px;
+    width: 999999px;
     height: 114px;
     background: url(../images/text-line.png) repeat-x 0 0/auto 114px;
 }
